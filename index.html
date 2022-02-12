@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tip Calculator</title>
+  
+<title>Tip Calculator</title>
+  
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <header>
+      <h1 id="title" class="text-center">Tip Calculator</h1>
+    </header>
+    <form action="javascript:void(calc())">
+      <input class="form-control" id="bill" type="text" placeholder="Total Bill">
+      <br>
+      <input class="form-control" id="split" type="text" placeholder="Number of payers">
+      <br>
+      <button class="btn btn-success btn-lg">Calculate</button>
+      </br>
+      </br>
+      <div class="results">
+        <p><strong>Tip:&nbsp; <span id="tip"></span></strong></p>
+        <p><strong>Total:&nbsp; <span id="total"></span></strong></p>
+        <p><strong>Split Total:&nbsp; <span id="splitTotal"></span></strong></p>
+      </div>
+    </form>
+    <br>
+  </div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
