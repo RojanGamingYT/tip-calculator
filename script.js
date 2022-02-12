@@ -5,7 +5,7 @@ var calc = function() {
   var totalBill = bill + tip;
   var splitPerPerson = totalBill / split
 
-  document.getElementById("tip").innerHTML = "$" + Number(tip).toFixed(2);
-  document.getElementById("total").innerHTML = "$" + Number(totalBill).toFixed(2);
-  document.getElementById("splitTotal").innerHTML = "$" + Number(splitPerPerson).toFixed(2);
+  document.getElementById("tip").innerHTML = "रु" + Number(tip).toFixed(2);
+  document.getElementById("total").innerHTML = "रु" + Number(totalBill).toFixed(2);
+  document.getElementById("splitTotal").innerHTML = "रु" + Number(splitPerPerson).toFixed(2);
 }
